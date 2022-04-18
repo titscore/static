@@ -3,5 +3,9 @@ const ads = [{
   file: 'FQlG2WbVgAEaoUu.jpg'
 }];
 window.onload = () => {
-    document.querySelector('#app').append(JSON.stringify(ads));
+    const appEl = document.querySelector('#app');
+    console.log({appEl});
+    appEl.append(JSON.stringify(ads));
+    console.log(JSON.stringify(ads));
+    return JSON.stringify(ads);
 }
