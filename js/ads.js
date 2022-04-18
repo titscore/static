@@ -2,4 +2,4 @@ const ads = [{
   name: 'monkeysVsBras',
   file: 'FQlG2WbVgAEaoUu.jpg'
 }];
-ads;
+document.querySelector('#app').append(ads);
